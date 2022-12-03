@@ -1,0 +1,23 @@
+{
+  "name": "ntwasl-socket-notification",
+  "version": "1.0.0",
+  "description": "NTWASL real time notification for the wordpress portal using Socket.IO & NodeJS",
+  "main": "./bin/",
+  "scripts": {
+    "start": "node ./bin/",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.13.3",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "require": "^0.4.4",
+    "supertest": "^6.2.3"
+  }
+}
